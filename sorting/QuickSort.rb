@@ -28,6 +28,15 @@
         #   return j
         #swap A[i] with A[j]
 
+# def q_m a_m
+#   return a_m if a_m.size <= 1
+#   p_a, n_a = [], []
+#   a_m[1..-1].map{ |d| if d < a_m[0] then p_a<<d else n_a<<d end }
+#   return q_m(p_a) + [a_m[0]] + q_m(n_a)
+# end
+
+# p q_m [110,10,5,8,89,77]
+
 
 def quick_sort(a,lo,hi)
     if lo<hi
